@@ -28,10 +28,3 @@ test_norm.npy:  shape (num_test,  2, H, W)
 
 For the MA experiments in the paper, `H=W=10`, and the two channels correspond
 to the real and imaginary parts of the channel.
-
-Data are not committed to this repository. Set the paths before running:
-
-```bash
-export TRAIN_DATA=/path/to/H_SV_f28_Nr100_Nt1_P5_alpha_train_norm.npy
-export TEST_DATA=/path/to/H_SV_f28_Nr100_Nt1_P5_alpha_test_norm.npy
-```
